@@ -1,6 +1,6 @@
 # Server Uptime Script
 
-This PowerShell script retrieves the uptime of a list of servers and outputs the results to a CSV file. The script reads a list of server hostnames from a file named `server.txt` and retrieves the uptime of each server using the `Get-Uptime` cmdlet. The output is then written to a CSV file named `output.csv`, which includes the hostname, hours since last reboot, and online status for each server.
+This PowerShell script retrieves the uptime of a list of servers and outputs the results to a CSV file. The script reads a list of server hostnames from a file named `server.txt` (that you must create) and retrieves the uptime of each server using the `Get-Uptime` cmdlet. The output is then written to a CSV file named `output.csv` (you must create this), which includes the hostname, hours since last reboot, and online status for each server.
 
 ## Prerequisites
 
